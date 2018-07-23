@@ -24,9 +24,8 @@ for ($third = 100; $third >= 10; $third--) {
 echo "<br>";
 
 //exo4
-for ($ini = 1; $ini <= 10;) {
+for ($ini = 1; $ini <= 10; $ini += $ini/2) {
     echo "<br>" . $ini;
-    $ini += $ini/2;
 }
 
 echo "<br>";
