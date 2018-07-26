@@ -17,7 +17,7 @@ echo "<br>";
 
 //exo3
 $fourth = rand (1, 100);
-for ($third = 100; $third >= 10; $third--) {
+for ($third = 100; $third > 10; $third--) {
     echo $result2 = $third * $fourth . "<br>";
 }
 
